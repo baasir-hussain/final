@@ -3,18 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Github</title>
     <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <nav>
-    <h1>
-    <button class="but1" style="margin-left:10px ;"><i class="fa-solid fa-bars"></i></button>
-    <i class="fa-brands fa-github" style="margin-left: 10px;"></i>
-    <div1>Dashboard</div1>
-    <input type="text" placeholder="Search" style="margin-left: 30%; width: 20%;"></h1>
-</nav>
+    <header>
+        <button class="navbtn" style="margin: 10px;"><i class="fa-solid fa-bars"></i></button>
+        <i style="height: 32px; width: 20px; font-size: 35px; color: aliceblue; margin-left: 0px; margin-right: 0px;" class="fa-brands fa-github"></i>
+        <h3 style="margin: 10px 10px 10px 30px; color: aliceblue;">Dashboard</h3>
+        <input type="text" placeholder="Type / to Search">
+        <button class="navbtn nav2">+></button>
+        <button class="navbtn nav2"><i class="fa-solid fa-code-commit"></i></button>
+        <button class="navbtn nav2"><i class="fa-solid fa-code-branch"></i></button>
+        <button class="navbtn nav2"><i class="fa-brands fa-codepen"></i></button>
+        <button style="margin-left: 10px; background-color: aliceblue;" class="headbtn" style="height: 33px;"></button>
+    </header>
+    <div class="container">
+    <aside>
+            <div class="top">
+                <h3 style="color: aliceblue; background-color: rgb(12, 12, 24) ;margin: 18px 0 8px 3px;">Top Repositories</h3>
+                <button style="height: 28px; width: 55px; margin: 15px 10px 10px 30px; background-color: rgb(42, 180, 15); color: aliceblue; border: 1px solid; border-radius: 4px;"><i class="fa-solid fa-floppy-disk"></i>New</button>
+            </div>
+            <input class="sidein" type="text" placeholder="Find a Repository.....">
+                <ul>
+                    <li>fawad-hussain/repositories</li>
+                </ul>
+            <h4 style="margin: 10px; background-color: rgb(12, 12, 24);">Recent Activity</h4>
+            <div style="border: 1px dotted gray; font-size: 12px; margin: 10px; border-radius: 5px; padding: 5px;">When you take actions across GitHub, we’ll provide links to that activity here.</div>
+    </aside> 
+    <main>       
+        
+        <div class="home">
+            <h2 style="color: aliceblue;">Home</h2>
+            <a style="text-decoration: none; color: dodgerblue; margin-left: 18.25vw;" href="#">Send Feedback</a>
+            <button class="navbtn"><i class="fa-solid fa-filter"></i>Filter</button>     
+        </div>
+       
+       <div class="content">
+        <div class="heading">
+            <button class="headbtn"><i class="fa-solid fa-code"></i></button>
+            <h4 style="margin-left: 10px; color: aliceblue;">Start Writing Code</h4>
+        </div>
+        <div class="box2">
+        <div class="box">
+            <h3  style="color: white;">Start a new repository for fawad-hussain</h3> <br>
+             <p1 style="color: white;">A repository contains all of your project's files, revision history, and collaborator discussion.</p1> <br>
+             <br><h3 style="color: white;">Repository name *</h3>
+             <input type="text" placeholder="name your new repository...." style="margin-left: 10px; width: 90%;"><br>
+            <img src="./sfdch.jpg.png" alt="" style="margin-left: 10px;"><br>
+            <button style="margin-left: 10px;margin-top: 15px; background-color: rgb(52, 134, 52); color: white; height: 35px; width: 50%; border-radius: 8px;">Create a new repository</button>
+        </div>
+        <div class="box" style="margin-left:0px ;">
+            <h3  style="margin-left: 5px; color: white;">Introduce yourself with a profile README</h3><br>
+            <p1 style="margin-left: 10pxpx; color: white;">Share information about yourself by creating a profile README, which appears at the top of your profile page.</p1><br>
+            <br><img src="knnn.jpg.png" alt="" style="border-radius: 12px; margin-left: 10px;" >
+        </div>
+        </div>
+        <div class="heading">
+       <button class="headbtn"><i class="fa-solid fa-wrench"></i></button>
+        <h4 style="margin-left: 10px; color: aliceblue;">Use tools of the trade</h4>
+        </div>
+        <div class="box2">
+        <div class="box" style="height: 150px; color: white; background-color: rgb(12, 12, 24);">
+            <h3 style="color: white; background-color: rgb(12, 12, 24);" >Simplify your development workflow with a GUI</h3><br>
+            <i class="fa-brands fa-github" style="color: #b57cc0; font-size: x-large; background-color: rgb(12, 12, 24);" ></i> <a href="#" style="margin-left: 10px; color: white; background-color: rgb(12, 12, 24);">Install GitHub Desktop</a><p1 style="color: rgb(163, 158, 158);">to visualize, commit, and push changes without ever touching the command line.</p1>
+        </div>
+        <div class="box"  style="height: 150px; color: white; background-color: rgb(12, 12, 24);">
+            <h3>Get AI-based coding suggestions</h3><br>
+            <a href="#" style="color: white;margin-left: 20px;">Try GitHub Copilot free for 30 days,</a><br>
+            <p1 style="margin-left: 20px;">which suggests entire functions in real time, right</p1><p1 style="margin-left: 20px;"> from your editor.</p1>
+            </div>
+        </div>
+    </div>
+        <div class="heading">
+            <button class="headbtn"><i class="fa-brands fa-google-scholar"></i></button>
+            <h4 style="margin-left: 10px; color: aliceblue;">Get started on GitHub</h4>
+            </div>
+            <div class="box2">
+        <div class="box" style="height: 229px; width: 63%; padding: 0%; border: rgb(12, 12, 24) ;"><img src="hsch.jpg.png" alt="" style="margin-left:3px; ;"></div>
+        <div class="box" style="height: 220px; color: white;"><i class="fa-solid fa-code-pull-request" style="color: #828282; font-size: x-large; margin-top: 15px; margin-left: 20px;"></i><br>
+       <br> <h3 style=" color: white;">Follow this exercise to try the GitHub flow</h3>
+       <br><p1>GitHub's “Hello World” tutorial teaches you essentials, where you create your own repository and learn GitHub's pull request workflow for creating and reviewing code.</p1>
+       <br><button style="margin-top: 10px; background-color:rgb(74, 72, 80); color: white; height: 30px; width: 50%; border-radius: 8px; border: 1px solid white;">Try the Github flow</button>
+        </div>
+    </div>
+    <div class="box" style="height: 252px; width: 63.5%;  padding: 0%; border-radius: 10px; border: 1px  rgb(12, 12, 24);"><img src="vdjh.jpg.png" alt="" style="margin-left: .5%;"></div>
+       </div>     
+    </main> 
+    </div> 
+    <footer>
+        <div class="foot" style="margin-top:50px;">
+        <h2> <i class="fa-brands fa-github"></i></h2>
+        <p style="margin-left: 1vw;">© 2024 GitHub, Inc.</p>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+        <a href="#">Status</a>
+        <a href="#">Docs</a>
+        <a href="#">Contact</a>
+        <a href="#">Manage Cookies</a>
+        </div> 
+        <a style="margin-left: 25%;" href="#">Do not share my personal information</a>
 
+    </footer>  
+   
 </body>
 </html>
